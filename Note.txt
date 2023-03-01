@@ -5,10 +5,11 @@ Deploy NextJS to IIS10
 4.	Sửa file package.json scripts start -> "start": "node server.js",
 5.	Chạy project npm run start
 6.	Build project npm run build
-7.	Tích all feature của ii strong control panel
-8.  Install nodejs
-8.	Install iisnode: https://github.com/tjanczuk/iisnode
-9.	Install urlRewirte: https://www.iis.net/downloads/microsoft/url-rewrite 
+7.	Tích all feature của iis strong control panel
+8.  Install nodejs (v18.12.1)
+8.	Install iisnode: https://github.com/tjanczuk/iisnode (iisnode-full-v0.2.21-x64.msi)
+9.	Install urlRewirte: https://www.iis.net/downloads/microsoft/url-rewrite (rewrite_amd64_en-US.msi)
 10.	Restart IIS
 11.	Tạo website trên IIS cho nextjs proj
 12.	Cấp full quyền cho user IIS_IUSRS vào folder của nextjs proj
+13. Truy cập vào link website và kiểm tra kết quả

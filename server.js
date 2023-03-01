@@ -1,6 +1,6 @@
 // server.js
 const { createServer } = require('http')
-const { parse } = required('url')
+const { parse } = require('url')
 const next = require('next')
 
 const dev = process.env.NODE_ENV !== 'production'
