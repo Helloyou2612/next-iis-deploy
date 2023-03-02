@@ -1,0 +1,9 @@
+Biến môi trường trong NextJS
+    next dev    : 3 file .env.local, .env.development, .env sẽ tự động được load
+    next build  : 3 file .env.local, .env.production, .env sẽ tự động được load
+NextJs hiện theo chuẩn chỉ có 4 file môi trường như trên 
+
+Nếu muốn custom để add thêm môi trường ví dụ staging 
+cách đơn gian là chạy lệnh copy nội dung của file .env.staging sang file .env.local trước khi run ứng dụng
+
+Chú ý phải build lại script trong file package.json
